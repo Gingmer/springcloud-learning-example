@@ -19,7 +19,7 @@ public class CustomerApplication {
     @Bean
     @LoadBalanced
     RestTemplate restTemplate() {
-        return new RestTemplate();  
+        return new RestTemplate();
     }
 
     public static void main(String[] args) {
