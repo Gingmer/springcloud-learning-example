@@ -25,7 +25,7 @@ public class CustomerController {
         String providerMsg = restTemplate.getForEntity("http://CLUSTER-PROVIDER-SERVICE/provider",
                 String.class).getBody();
 
-        return "Hello,Customer! msg from provider : <br/><br/> " + providerMsg;
+        return "Hello,Customer! msg from provider : <br/><br/> this is dev branch " + providerMsg;
     }
 
 }
