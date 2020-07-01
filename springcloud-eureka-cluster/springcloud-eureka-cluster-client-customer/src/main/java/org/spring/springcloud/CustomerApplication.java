@@ -19,7 +19,6 @@ public class CustomerApplication {
     @Bean
     @LoadBalanced
     RestTemplate restTemplate() {
-
         return new RestTemplate();
     }
 
